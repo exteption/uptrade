@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #191d28;
+    ;
+}
+
+html {
+    background-color: #191d28;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    max-width: 80%;
+    width: 80%;
+    padding-top:  20px;
+    margin: 0 auto;
+
+}
+.main-header {
+    width: 100%;
+}
+.filter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 80%;
+    width: 100%;
+    padding-top:  20px;
+    margin: 0 auto;
+}
+main  {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.buy-sell-skins {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.search-div {
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    top: 35%;
+    bottom: 35%;
+    left: 15px;
+}
+.main-logo {
+    width: 90px;
+    padding: 15px;
+    border-radius: 4px;
+    border: solid rgb(42, 43, 53);
+
+}
+
+.main-buttons {
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+
+}
+
+.main-backet {
+    background: #e8732e;
+    width: 140px;
+    font-size: 10px;
+    padding: 20px;
+    border-radius: 4px;
+    width: 150px;
+    border: solid rgb(42, 43, 53);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-header {
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #191d28;
+    border: solid rgb(42, 43, 53);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.header-text {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.profile {
+    width: 140px;
+    padding: 20px;
+    background-color: #191d28;
+    border: solid rgb(42, 43, 53);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.filter {
+     display: flex;
+     margin-top: 20px;
+}
+
+.filter-text-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-right: 20px;
+}
+.filter-text-button:hover{
+     color: #e8732e;
+}
+main {
+    margin: 0 auto;
+    max-width: 80%;
+    
+}
+.buyskinscs2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-chapter {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 30px;
+    max-width: 90%;
+
+}
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;  
+    
+                                
+}
+.price-button {
+     background-color: #191d28;
+    border: 1px solid rgb(42, 43, 53);
+    padding: 15px;
+    width: 100px;
+    border-radius: 4px;
+    color: rgb(150, 149, 149);
+    outline: none;
+
+
+}
+.price-buttons-content {
+    display: inline-block;
+    
+}
+.search {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+   
+}
+.main-content {
+    display: flex;
+    align-items: start;
+    gap: 50px;
+
+}
+.skins-cards {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.search-input {
+    padding:  15px;
+    padding-left: 40px;
+    border-radius: 4px;
+    width: 450px;
+    background-color: #1e2330;
+    color: white;
+    border: solid rgb(42, 43, 53);
+    outline: none;
+}
+.search-input:focus {
+    border: 1px solid #e8732e;
+}
+.search-icon:hover{
+    color:#e8732e;
+}
+.button-div {
+    display: flex;
+    gap: 0px;
+}
+.refresh-button {
+    background-color: #1e2330;
+    border:2px solid rgb(42, 43, 53);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 46px;
+    height: 49px;
+}
+.refresh-button:hover{
+     background-color: #292c36;
+}
+.cs2-logo {
+    width: 28px;
+    height: 28px;
+}
+.price-button {
+    color: white;
+}
+.rust-logo {
+    width: 28px;
+    height: 28px;
+}
+.dota-logo {
+    width: 28px;
+    height: 28px;
+}
+.logo-button {
+    background-color: #1e2330;
+    border:2px solid rgb(42, 43, 53);
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+   } 
+.logo-button:hover {
+    background-color: #292c36;
+}
+.main-filters-button {
+    background-color: #252833;
+    color: white;
+    padding: 12px;
+    border: none;
+}
+.main-filters-button:hover {
+    background-color:#1C1F2A;
+    border-radius: 4px;
+}
+.search-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.main-chapter {
+    margin-bottom: 20px;
+    width: 100%;
+    gap: 10px;
+    
+}
+.price-filter-button {
+    background: transparent;
+    border:1px solid rgb(42, 43, 53);
+    padding: 12px;
+    width: 100px;
+    color:#757575;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.refresh {
+    display: flex;
+    gap: 10px;
+}
+.main-card-image {
+   width: 95%;
+   margin: 0 auto;
+   display: block;
+   
+   
+}
+.main-cards {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.cards {
+    border: 1px solid rgb(37, 37, 37);
+}
+.main-card-text {
+    font-size: 11px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.price-main-card-text {
+    font-weight: bold;
+    color: aliceblue;
+    align-items: center;
+     padding-left: 10px;
+    padding-right: 10px;
+    margin-top:  10px;
+}
+.price-input-content {
+    display: flex;
+}
+.backet-main-card {
+    background-color: transparent;
+    border: none;
+    color: #e8732e;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+
+
+}
+.main-div-content {
+   background-color: #252833;
+   border-radius: 10px;
+   padding: 20px;
+}
+.backet-main-card:hover {
+   background: #e8732e;
+   border-color: transparent;
+   color: white;
+   width: 100%;
+}
+.bucket-icon:hover {
+    color: white;
+}
+.filters {
+   margin-top: 30px;
+
+}
+.select-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.select-button:focus,:active {
+    outline: none;
+    box-shadow: none;
+
+}
+button:active {
+    outline: none;
+    box-shadow: none;
+}
+.reset-filter-div {
+    margin-top: 40px;
+}
+.reset-filters-button  {
+    background-color: transparent;
+    padding: 15px;
+    border:1px solid rgb(156, 156, 156);
+    color: rgb(157, 158, 158);
+    border-radius: 8px;
+    font-weight: 500;
+    width: 100%;
+}
+.reset-filters-button:hover {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.price-filter-button {
+    color: white;
+    width: 100%;
+    padding: 15px;
+    width: 200px;
+    border:2px solid rgb(42, 43, 53);
+    border-radius: 8px;
+    background-color: #1e2330;
+
+}
+.price-filter-button:hover {
+    background-color: #292c36;
+    
+}
+.faq-buttons-div {
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+  
+}
+.faq-page {
+    max-width: 80%;
+    width: 80%;
+    margin: 0 auto ;
+    display: flex;
+    gap: 25px;
+
+}
+.faq-button {
+    padding: 16px;
+    background-color: transparent;
+    color: #b2b4bb;;
+    border: none;
+    border-bottom: 1px solid #2b2d33;
+    font-size: 16px;
+    text-align: left;
+}
+.faq-button:hover {
+    color: #a77253;
+}
+
+.answer-text-info {
+    color: #b2b4bb;
+    font-size: 16px;
+}
+.circlequestion {
+    margin-right: 10px;
+}
+

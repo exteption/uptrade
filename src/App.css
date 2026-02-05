@@ -1,0 +1,13 @@
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+.main-content {
+ 
+  width: 100%;
+}
+.content {
+  margin: 0 auto;
+  width: 15%;
+}
